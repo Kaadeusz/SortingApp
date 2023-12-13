@@ -126,10 +126,10 @@
     <value>0, 0</value>
   </data>
   <data name="SortString_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 381</value>
+    <value>12, 378</value>
   </data>
   <data name="SortString_Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 23</value>
+    <value>240, 26</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="SortString_Button.TabIndex" type="System.Int32, mscorlib">
@@ -232,7 +232,7 @@
     <value>2</value>
   </data>
   <data name="SortingProperties_Box.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 274</value>
+    <value>12, 272</value>
   </data>
   <data name="SortingProperties_Box.Size" type="System.Drawing.Size, System.Drawing">
     <value>240, 100</value>
@@ -391,10 +391,10 @@
     <value>4</value>
   </data>
   <data name="Algorythms_Box.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 148</value>
+    <value>12, 134</value>
   </data>
   <data name="Algorythms_Box.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 120</value>
+    <value>240, 132</value>
   </data>
   <data name="Algorythms_Box.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -415,7 +415,7 @@
     <value>2</value>
   </data>
   <data name="GenerateString_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 91</value>
+    <value>16, 80</value>
   </data>
   <data name="GenerateString_Button.Size" type="System.Drawing.Size, System.Drawing">
     <value>206, 23</value>
@@ -541,7 +541,7 @@
     <value>12, 12</value>
   </data>
   <data name="StringPropertiers_Box.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 130</value>
+    <value>240, 116</value>
   </data>
   <data name="StringPropertiers_Box.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -561,25 +561,25 @@
   <data name="&gt;&gt;StringPropertiers_Box.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="StringGeneratingProgress_Bar.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="SortingProcess_ProgressBar.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 410</value>
   </data>
-  <data name="StringGeneratingProgress_Bar.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="SortingProcess_ProgressBar.Size" type="System.Drawing.Size, System.Drawing">
     <value>240, 24</value>
   </data>
-  <data name="StringGeneratingProgress_Bar.TabIndex" type="System.Int32, mscorlib">
+  <data name="SortingProcess_ProgressBar.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;StringGeneratingProgress_Bar.Name" xml:space="preserve">
-    <value>StringGeneratingProgress_Bar</value>
+  <data name="&gt;&gt;SortingProcess_ProgressBar.Name" xml:space="preserve">
+    <value>SortingProcess_ProgressBar</value>
   </data>
-  <data name="&gt;&gt;StringGeneratingProgress_Bar.Type" xml:space="preserve">
+  <data name="&gt;&gt;SortingProcess_ProgressBar.Type" xml:space="preserve">
     <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;StringGeneratingProgress_Bar.Parent" xml:space="preserve">
+  <data name="&gt;&gt;SortingProcess_ProgressBar.Parent" xml:space="preserve">
     <value>splitContainer1.Panel1</value>
   </data>
-  <data name="&gt;&gt;StringGeneratingProgress_Bar.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;SortingProcess_ProgressBar.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">

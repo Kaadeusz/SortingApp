@@ -35,34 +35,30 @@ namespace SortingApp
     {
       Strings s = new Strings();
 
+      if (maxValue == 0)
+      {
+        MessageBox.Show("String should not contain ony 0's (check Max Value and try again)", "Error!", MessageBoxButtons.OK);
+        return;
+      }
+
       if (maxLength < 2)
       {
         MessageBox.Show("String can't be shorter than 2 characters (check Max Length and try again)", "Error!", MessageBoxButtons.OK);
         return;
       }
 
-      if (maxValue == 0)
-      {
-        MessageBox.Show("String should not contain ony 0 (check Max Value and try again)", "Error!", MessageBoxButtons.OK);
-        return;
-      }
-
       listBox1.Items.Clear();
 
       s.GenerateRandoms(maxLength, maxValue);
-
-      foreach (int number in s.randomString)
-      {
-        listBox1.Items.Add(number);
-      }
+      s.ConvertToListBox(listBox1);
     }
 
-    private void StringGeneratingProgress_Bar_Click(object sender, EventArgs e)
+    private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
     {
 
     }
 
-    private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+    private void SortingProcess_ProgressBar_Click(object sender, EventArgs e)
     {
 
     }

@@ -33,7 +33,9 @@
       System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
       System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
       this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+      this.SortString_Button = new System.Windows.Forms.Button();
       this.SortingProperties_Box = new System.Windows.Forms.GroupBox();
+      this.Random_RdButton = new System.Windows.Forms.RadioButton();
       this.Descending_RdButton = new System.Windows.Forms.RadioButton();
       this.Ascending_RdButton = new System.Windows.Forms.RadioButton();
       this.Algorythms_Box = new System.Windows.Forms.GroupBox();
@@ -48,11 +50,9 @@
       this.label1 = new System.Windows.Forms.Label();
       this.MaxStringLength_Label = new System.Windows.Forms.NumericUpDown();
       this.MaxStringValue_Label = new System.Windows.Forms.NumericUpDown();
-      this.StringGeneratingProgress_Bar = new System.Windows.Forms.ProgressBar();
+      this.SortingProcess_ProgressBar = new System.Windows.Forms.ProgressBar();
       this.listBox1 = new System.Windows.Forms.ListBox();
       this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-      this.Random_RdButton = new System.Windows.Forms.RadioButton();
-      this.SortString_Button = new System.Windows.Forms.Button();
       ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
       this.splitContainer1.Panel1.SuspendLayout();
       this.splitContainer1.Panel2.SuspendLayout();
@@ -76,12 +76,18 @@
       this.splitContainer1.Panel1.Controls.Add(this.SortingProperties_Box);
       this.splitContainer1.Panel1.Controls.Add(this.Algorythms_Box);
       this.splitContainer1.Panel1.Controls.Add(this.StringPropertiers_Box);
-      this.splitContainer1.Panel1.Controls.Add(this.StringGeneratingProgress_Bar);
+      this.splitContainer1.Panel1.Controls.Add(this.SortingProcess_ProgressBar);
       // 
       // splitContainer1.Panel2
       // 
       this.splitContainer1.Panel2.Controls.Add(this.listBox1);
       this.splitContainer1.Panel2.Controls.Add(this.chart1);
+      // 
+      // SortString_Button
+      // 
+      resources.ApplyResources(this.SortString_Button, "SortString_Button");
+      this.SortString_Button.Name = "SortString_Button";
+      this.SortString_Button.UseVisualStyleBackColor = true;
       // 
       // SortingProperties_Box
       // 
@@ -91,6 +97,13 @@
       resources.ApplyResources(this.SortingProperties_Box, "SortingProperties_Box");
       this.SortingProperties_Box.Name = "SortingProperties_Box";
       this.SortingProperties_Box.TabStop = false;
+      // 
+      // Random_RdButton
+      // 
+      resources.ApplyResources(this.Random_RdButton, "Random_RdButton");
+      this.Random_RdButton.Name = "Random_RdButton";
+      this.Random_RdButton.TabStop = true;
+      this.Random_RdButton.UseVisualStyleBackColor = true;
       // 
       // Descending_RdButton
       // 
@@ -187,11 +200,11 @@
       this.MaxStringValue_Label.Name = "MaxStringValue_Label";
       this.MaxStringValue_Label.ValueChanged += new System.EventHandler(this.MaxStringValue_Label_ValueChanged);
       // 
-      // StringGeneratingProgress_Bar
+      // SortingProcess_ProgressBar
       // 
-      resources.ApplyResources(this.StringGeneratingProgress_Bar, "StringGeneratingProgress_Bar");
-      this.StringGeneratingProgress_Bar.Name = "StringGeneratingProgress_Bar";
-      this.StringGeneratingProgress_Bar.Click += new System.EventHandler(this.StringGeneratingProgress_Bar_Click);
+      resources.ApplyResources(this.SortingProcess_ProgressBar, "SortingProcess_ProgressBar");
+      this.SortingProcess_ProgressBar.Name = "SortingProcess_ProgressBar";
+      this.SortingProcess_ProgressBar.Click += new System.EventHandler(this.SortingProcess_ProgressBar_Click);
       // 
       // listBox1
       // 
@@ -214,19 +227,6 @@
       series1.Legend = "Legend1";
       series1.Name = "Series1";
       this.chart1.Series.Add(series1);
-      // 
-      // Random_RdButton
-      // 
-      resources.ApplyResources(this.Random_RdButton, "Random_RdButton");
-      this.Random_RdButton.Name = "Random_RdButton";
-      this.Random_RdButton.TabStop = true;
-      this.Random_RdButton.UseVisualStyleBackColor = true;
-      // 
-      // SortString_Button
-      // 
-      resources.ApplyResources(this.SortString_Button, "SortString_Button");
-      this.SortString_Button.Name = "SortString_Button";
-      this.SortString_Button.UseVisualStyleBackColor = true;
       // 
       // Sorter
       // 
@@ -264,7 +264,7 @@
     private System.Windows.Forms.CheckBox BubbleSort_CkBox;
     private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
     private System.Windows.Forms.NumericUpDown MaxStringValue_Label;
-    private System.Windows.Forms.ProgressBar StringGeneratingProgress_Bar;
+    private System.Windows.Forms.ProgressBar SortingProcess_ProgressBar;
     private System.Windows.Forms.RadioButton Descending_RdButton;
     private System.Windows.Forms.RadioButton Ascending_RdButton;
     private System.Windows.Forms.Button GenerateString_Button;
