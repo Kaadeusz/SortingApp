@@ -125,13 +125,118 @@
   <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="SortString_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 381</value>
+  </data>
+  <data name="SortString_Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SortString_Button.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="SortString_Button.Text" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="&gt;&gt;SortString_Button.Name" xml:space="preserve">
+    <value>SortString_Button</value>
+  </data>
+  <data name="&gt;&gt;SortString_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SortString_Button.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;SortString_Button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Random_RdButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Random_RdButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 68</value>
+  </data>
+  <data name="Random_RdButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="Random_RdButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Random_RdButton.Text" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="&gt;&gt;Random_RdButton.Name" xml:space="preserve">
+    <value>Random_RdButton</value>
+  </data>
+  <data name="&gt;&gt;Random_RdButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Random_RdButton.Parent" xml:space="preserve">
+    <value>SortingProperties_Box</value>
+  </data>
+  <data name="&gt;&gt;Random_RdButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Descending_RdButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Descending_RdButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 35</value>
+  </data>
+  <data name="Descending_RdButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="Descending_RdButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Descending_RdButton.Text" xml:space="preserve">
+    <value>Descending</value>
+  </data>
+  <data name="&gt;&gt;Descending_RdButton.Name" xml:space="preserve">
+    <value>Descending_RdButton</value>
+  </data>
+  <data name="&gt;&gt;Descending_RdButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Descending_RdButton.Parent" xml:space="preserve">
+    <value>SortingProperties_Box</value>
+  </data>
+  <data name="&gt;&gt;Descending_RdButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Ascending_RdButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Ascending_RdButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 35</value>
+  </data>
+  <data name="Ascending_RdButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="Ascending_RdButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Ascending_RdButton.Text" xml:space="preserve">
+    <value>Ascending</value>
+  </data>
+  <data name="&gt;&gt;Ascending_RdButton.Name" xml:space="preserve">
+    <value>Ascending_RdButton</value>
+  </data>
+  <data name="&gt;&gt;Ascending_RdButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ascending_RdButton.Parent" xml:space="preserve">
+    <value>SortingProperties_Box</value>
+  </data>
+  <data name="&gt;&gt;Ascending_RdButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="SortingProperties_Box.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 338</value>
+    <value>12, 274</value>
   </data>
   <data name="SortingProperties_Box.Size" type="System.Drawing.Size, System.Drawing">
     <value>240, 100</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="SortingProperties_Box.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -148,60 +253,60 @@
     <value>splitContainer1.Panel1</value>
   </data>
   <data name="&gt;&gt;SortingProperties_Box.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
-  <data name="checkBox5.AutoSize" type="System.Boolean, mscorlib">
+  <data name="QuickSort_CkBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox5.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="QuickSort_CkBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>130, 62</value>
   </data>
-  <data name="checkBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 17</value>
+  <data name="QuickSort_CkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
   </data>
-  <data name="checkBox5.TabIndex" type="System.Int32, mscorlib">
+  <data name="QuickSort_CkBox.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="checkBox5.Text" xml:space="preserve">
-    <value>checkBox5</value>
+  <data name="QuickSort_CkBox.Text" xml:space="preserve">
+    <value>Quick Sort</value>
   </data>
-  <data name="&gt;&gt;checkBox5.Name" xml:space="preserve">
-    <value>checkBox5</value>
+  <data name="&gt;&gt;QuickSort_CkBox.Name" xml:space="preserve">
+    <value>QuickSort_CkBox</value>
   </data>
-  <data name="&gt;&gt;checkBox5.Type" xml:space="preserve">
+  <data name="&gt;&gt;QuickSort_CkBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox5.Parent" xml:space="preserve">
+  <data name="&gt;&gt;QuickSort_CkBox.Parent" xml:space="preserve">
     <value>Algorythms_Box</value>
   </data>
-  <data name="&gt;&gt;checkBox5.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;QuickSort_CkBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="checkBox4.AutoSize" type="System.Boolean, mscorlib">
+  <data name="MergeSort_CkBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox4.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="MergeSort_CkBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>130, 29</value>
   </data>
-  <data name="checkBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 17</value>
+  <data name="MergeSort_CkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 17</value>
   </data>
-  <data name="checkBox4.TabIndex" type="System.Int32, mscorlib">
+  <data name="MergeSort_CkBox.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="checkBox4.Text" xml:space="preserve">
-    <value>checkBox4</value>
+  <data name="MergeSort_CkBox.Text" xml:space="preserve">
+    <value>Merge Sort</value>
   </data>
-  <data name="&gt;&gt;checkBox4.Name" xml:space="preserve">
-    <value>checkBox4</value>
+  <data name="&gt;&gt;MergeSort_CkBox.Name" xml:space="preserve">
+    <value>MergeSort_CkBox</value>
   </data>
-  <data name="&gt;&gt;checkBox4.Type" xml:space="preserve">
+  <data name="&gt;&gt;MergeSort_CkBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;MergeSort_CkBox.Parent" xml:space="preserve">
     <value>Algorythms_Box</value>
   </data>
-  <data name="&gt;&gt;checkBox4.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;MergeSort_CkBox.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="SelectionSort_CkBox.AutoSize" type="System.Boolean, mscorlib">
@@ -286,10 +391,10 @@
     <value>4</value>
   </data>
   <data name="Algorythms_Box.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 186</value>
+    <value>12, 148</value>
   </data>
   <data name="Algorythms_Box.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 146</value>
+    <value>240, 120</value>
   </data>
   <data name="Algorythms_Box.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -307,13 +412,136 @@
     <value>splitContainer1.Panel1</value>
   </data>
   <data name="&gt;&gt;Algorythms_Box.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GenerateString_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 91</value>
+  </data>
+  <data name="GenerateString_Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 23</value>
+  </data>
+  <data name="GenerateString_Button.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="GenerateString_Button.Text" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="&gt;&gt;GenerateString_Button.Name" xml:space="preserve">
+    <value>GenerateString_Button</value>
+  </data>
+  <data name="&gt;&gt;GenerateString_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GenerateString_Button.Parent" xml:space="preserve">
+    <value>StringPropertiers_Box</value>
+  </data>
+  <data name="&gt;&gt;GenerateString_Button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Max Length</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>StringPropertiers_Box</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 28</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Max Value</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>StringPropertiers_Box</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="MaxStringLength_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 54</value>
+  </data>
+  <data name="MaxStringLength_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 20</value>
+  </data>
+  <data name="MaxStringLength_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;MaxStringLength_Label.Name" xml:space="preserve">
+    <value>MaxStringLength_Label</value>
+  </data>
+  <data name="&gt;&gt;MaxStringLength_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MaxStringLength_Label.Parent" xml:space="preserve">
+    <value>StringPropertiers_Box</value>
+  </data>
+  <data name="&gt;&gt;MaxStringLength_Label.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="MaxStringValue_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 54</value>
+  </data>
+  <data name="MaxStringValue_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 20</value>
+  </data>
+  <data name="MaxStringValue_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;MaxStringValue_Label.Name" xml:space="preserve">
+    <value>MaxStringValue_Label</value>
+  </data>
+  <data name="&gt;&gt;MaxStringValue_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MaxStringValue_Label.Parent" xml:space="preserve">
+    <value>StringPropertiers_Box</value>
+  </data>
+  <data name="&gt;&gt;MaxStringValue_Label.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="StringPropertiers_Box.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
   </data>
   <data name="StringPropertiers_Box.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 168</value>
+    <value>240, 130</value>
   </data>
   <data name="StringPropertiers_Box.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -331,7 +559,28 @@
     <value>splitContainer1.Panel1</value>
   </data>
   <data name="&gt;&gt;StringPropertiers_Box.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
+  </data>
+  <data name="StringGeneratingProgress_Bar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 410</value>
+  </data>
+  <data name="StringGeneratingProgress_Bar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 24</value>
+  </data>
+  <data name="StringGeneratingProgress_Bar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;StringGeneratingProgress_Bar.Name" xml:space="preserve">
+    <value>StringGeneratingProgress_Bar</value>
+  </data>
+  <data name="&gt;&gt;StringGeneratingProgress_Bar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StringGeneratingProgress_Bar.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;StringGeneratingProgress_Bar.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
     <value>splitContainer1.Panel1</value>
@@ -344,6 +593,51 @@
   </data>
   <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="listBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 339</value>
+  </data>
+  <data name="listBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 95</value>
+  </data>
+  <data name="listBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;listBox1.Name" xml:space="preserve">
+    <value>listBox1</value>
+  </data>
+  <data name="&gt;&gt;listBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listBox1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;listBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chart1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 21</value>
+  </data>
+  <data name="chart1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 311</value>
+  </data>
+  <data name="chart1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chart1.Text" xml:space="preserve">
+    <value>chart1</value>
+  </data>
+  <data name="&gt;&gt;chart1.Name" xml:space="preserve">
+    <value>chart1</value>
+  </data>
+  <data name="&gt;&gt;chart1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataVisualization.Charting.Chart, System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</value>
+  </data>
+  <data name="&gt;&gt;chart1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;chart1.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
     <value>splitContainer1.Panel2</value>

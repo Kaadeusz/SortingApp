@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,17 +18,51 @@ namespace SortingApp
       InitializeComponent();
     }
 
-    private void checkBox1_CheckedChanged(object sender, EventArgs e)
+    int maxLength = 0;
+    int maxValue = 0;
+
+    private void MaxStringLength_Label_ValueChanged(object sender, EventArgs e)
+    {
+      maxLength = (int)MaxStringLength_Label.Value;
+
+    }
+    private void MaxStringValue_Label_ValueChanged(object sender, EventArgs e)
+    {
+      maxValue = (int)MaxStringValue_Label.Value;
+    }
+
+    private void GenerateString_Button_Click(object sender, EventArgs e)
+    {
+      Strings s = new Strings();
+
+      if (maxLength < 2)
+      {
+        MessageBox.Show("String can't be shorter than 2 characters (check Max Length and try again)", "Error!", MessageBoxButtons.OK);
+        return;
+      }
+
+      if (maxValue == 0)
+      {
+        MessageBox.Show("String should not contain ony 0 (check Max Value and try again)", "Error!", MessageBoxButtons.OK);
+        return;
+      }
+
+      listBox1.Items.Clear();
+
+      s.GenerateRandoms(maxLength, maxValue);
+
+      foreach (int number in s.randomString)
+      {
+        listBox1.Items.Add(number);
+      }
+    }
+
+    private void StringGeneratingProgress_Bar_Click(object sender, EventArgs e)
     {
 
     }
 
-    private void checkBox2_CheckedChanged(object sender, EventArgs e)
-    {
-
-    }
-
-    private void checkBox3_CheckedChanged(object sender, EventArgs e)
+    private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
     {
 
     }
