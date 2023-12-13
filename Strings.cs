@@ -21,7 +21,7 @@ namespace SortingApp
       }
     }
 
-    public void ConvertToListBox(ListBox box)
+    public void ConvertToTextBox(TextBox box)
     {
       string wholeString = string.Format("{0}, ", stringOfRandoms[0]);
 
@@ -31,9 +31,8 @@ namespace SortingApp
         wholeString = wholeString + temporaryValue;
       }
 
-      box.Items.Add(wholeString);
-
-
+      box.Text = wholeString;
     }
+
   }
 }

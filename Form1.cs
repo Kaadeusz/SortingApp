@@ -47,18 +47,16 @@ namespace SortingApp
         return;
       }
 
-      listBox1.Items.Clear();
-
       s.GenerateRandoms(maxLength, maxValue);
-      s.ConvertToListBox(listBox1);
+      s.ConvertToTextBox(textBox1);
     }
 
-    private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+    private void SortingProcess_ProgressBar_Click(object sender, EventArgs e)
     {
 
     }
 
-    private void SortingProcess_ProgressBar_Click(object sender, EventArgs e)
+    private void textBox1_TextChanged(object sender, EventArgs e)
     {
 
     }

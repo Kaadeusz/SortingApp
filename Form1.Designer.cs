@@ -51,8 +51,8 @@
       this.MaxStringLength_Label = new System.Windows.Forms.NumericUpDown();
       this.MaxStringValue_Label = new System.Windows.Forms.NumericUpDown();
       this.SortingProcess_ProgressBar = new System.Windows.Forms.ProgressBar();
-      this.listBox1 = new System.Windows.Forms.ListBox();
       this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+      this.textBox1 = new System.Windows.Forms.TextBox();
       ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
       this.splitContainer1.Panel1.SuspendLayout();
       this.splitContainer1.Panel2.SuspendLayout();
@@ -80,7 +80,7 @@
       // 
       // splitContainer1.Panel2
       // 
-      this.splitContainer1.Panel2.Controls.Add(this.listBox1);
+      this.splitContainer1.Panel2.Controls.Add(this.textBox1);
       this.splitContainer1.Panel2.Controls.Add(this.chart1);
       // 
       // SortString_Button
@@ -206,13 +206,6 @@
       this.SortingProcess_ProgressBar.Name = "SortingProcess_ProgressBar";
       this.SortingProcess_ProgressBar.Click += new System.EventHandler(this.SortingProcess_ProgressBar_Click);
       // 
-      // listBox1
-      // 
-      this.listBox1.FormattingEnabled = true;
-      resources.ApplyResources(this.listBox1, "listBox1");
-      this.listBox1.Name = "listBox1";
-      this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
-      // 
       // chart1
       // 
       this.chart1.BorderlineColor = System.Drawing.Color.Black;
@@ -228,6 +221,12 @@
       series1.Name = "Series1";
       this.chart1.Series.Add(series1);
       // 
+      // textBox1
+      // 
+      resources.ApplyResources(this.textBox1, "textBox1");
+      this.textBox1.Name = "textBox1";
+      this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+      // 
       // Sorter
       // 
       resources.ApplyResources(this, "$this");
@@ -236,6 +235,7 @@
       this.Name = "Sorter";
       this.splitContainer1.Panel1.ResumeLayout(false);
       this.splitContainer1.Panel2.ResumeLayout(false);
+      this.splitContainer1.Panel2.PerformLayout();
       ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
       this.splitContainer1.ResumeLayout(false);
       this.SortingProperties_Box.ResumeLayout(false);
@@ -271,9 +271,9 @@
     private System.Windows.Forms.Label label2;
     private System.Windows.Forms.Label label1;
     private System.Windows.Forms.NumericUpDown MaxStringLength_Label;
-    private System.Windows.Forms.ListBox listBox1;
     private System.Windows.Forms.RadioButton Random_RdButton;
     private System.Windows.Forms.Button SortString_Button;
+    private System.Windows.Forms.TextBox textBox1;
   }
 }
 
