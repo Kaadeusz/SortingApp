@@ -21,6 +21,21 @@ namespace SortingApp
       }
     }
 
+    internal void ClearList()
+    {
+      stringOfRandoms.Clear();
+    }
+
+    internal List<int> CopyList(List<int> newOne)
+    {
+      foreach (int number in stringOfRandoms)
+      {
+        newOne.Add(number);
+      }
+
+      return newOne;
+    }
+
     internal void ConvertToTextBox(TextBox box)
     {
       string wholeString = string.Format("{0}, ", stringOfRandoms[0]);

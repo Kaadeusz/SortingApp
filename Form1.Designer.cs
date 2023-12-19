@@ -88,6 +88,7 @@
       resources.ApplyResources(this.SortString_Button, "SortString_Button");
       this.SortString_Button.Name = "SortString_Button";
       this.SortString_Button.UseVisualStyleBackColor = true;
+      this.SortString_Button.Click += new System.EventHandler(this.SortString_Button_Click);
       // 
       // SortingProperties_Box
       // 
@@ -198,6 +199,11 @@
       // MaxStringLength_Label
       // 
       resources.ApplyResources(this.MaxStringLength_Label, "MaxStringLength_Label");
+      this.MaxStringLength_Label.Maximum = new decimal(new int[] {
+            1215752191,
+            23,
+            0,
+            0});
       this.MaxStringLength_Label.Name = "MaxStringLength_Label";
       this.MaxStringLength_Label.Value = new decimal(new int[] {
             10,
@@ -209,6 +215,11 @@
       // MaxStringValue_Label
       // 
       resources.ApplyResources(this.MaxStringValue_Label, "MaxStringValue_Label");
+      this.MaxStringValue_Label.Maximum = new decimal(new int[] {
+            1215752191,
+            23,
+            0,
+            0});
       this.MaxStringValue_Label.Name = "MaxStringValue_Label";
       this.MaxStringValue_Label.Value = new decimal(new int[] {
             10,
@@ -244,6 +255,7 @@
       series1.Legend = "Legend1";
       series1.Name = "Series1";
       this.Sorting_Chart.Series.Add(series1);
+      this.Sorting_Chart.Click += new System.EventHandler(this.Sorting_Chart_Click);
       // 
       // Sorter
       // 
@@ -294,4 +306,3 @@
     private System.Windows.Forms.TextBox String_TxtBox;
   }
 }
-

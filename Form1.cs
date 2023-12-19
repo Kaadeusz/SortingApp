@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace SortingApp
 {
@@ -18,7 +20,9 @@ namespace SortingApp
       InitializeComponent();
     }
 
-    Choice c = new Choice();
+
+    Strings s = new Strings();
+
     int maxLength = 10;
     int maxValue = 10;
 
@@ -34,7 +38,7 @@ namespace SortingApp
 
     private void GenerateString_Button_Click(object sender, EventArgs e)
     {
-      Strings s = new Strings();
+      s.ClearList();
 
       if (maxValue == 0)
       {
@@ -52,15 +56,8 @@ namespace SortingApp
       s.ConvertToTextBox(String_TxtBox);
     }
 
-    private void SortingProcess_ProgressBar_Click(object sender, EventArgs e)
-    {
 
-    }
-
-    private void String_TxtBox_TextChanged(object sender, EventArgs e)
-    {
-
-    }
+    Choice c = new Choice();
 
     private void BubbleSort_CkBox_CheckedChanged(object sender, EventArgs e)
     {
@@ -132,6 +129,91 @@ namespace SortingApp
     private void Random_RdButton_CheckedChanged(object sender, EventArgs e)
     {
       c.UseRandomSortingOrder();
+    }
+
+
+    BubbleSort bbl_Sort = new BubbleSort();
+    SelectionSort slct_Sort = new SelectionSort();
+    InsertionSort isrt_Sort = new InsertionSort();
+
+    private void AddToChart(Chart chart, string seriesName, TimeSpan time)
+    {
+      Series chartValue = new Series(seriesName);
+
+      chartValue.Points.AddY(time.TotalMilliseconds);
+      chart.Series.Add(chartValue);
+    }
+
+    private void SortString_Button_Click(object sender, EventArgs e)
+    {
+      Sorting_Chart.Series.Clear();
+      Stopwatch algorythmDuration = new Stopwatch();
+
+      if (c.ascendingSorting == true)
+      {
+        if(c.bubbleSelect == true)
+        {
+          algorythmDuration.Reset();
+
+          List<int> BubbleCopy = new List<int>();
+          s.CopyList(BubbleCopy);
+
+          algorythmDuration.Start();
+          bbl_Sort.SortASC(BubbleCopy);
+          algorythmDuration.Stop();
+
+          AddToChart(Sorting_Chart, "Bubble Sort", algorythmDuration.Elapsed);
+        }
+
+        if (c.selectionSelect == true)
+        {
+          algorythmDuration.Reset();
+
+          List<int> SelectionCopy = new List<int>();
+          s.CopyList(SelectionCopy);
+
+          algorythmDuration.Start();
+          slct_Sort.SortASC(SelectionCopy);
+          algorythmDuration.Stop();
+
+          AddToChart(Sorting_Chart, "Selection Sort", algorythmDuration.Elapsed);
+
+          if (c.insertionSelect == true)
+          {
+            algorythmDuration.Reset();
+
+            List<int> InsertionCopy = new List<int>();
+            s.CopyList(InsertionCopy);
+
+            algorythmDuration.Start();
+            isrt_Sort.SortASC(InsertionCopy);
+            algorythmDuration.Stop();
+
+            AddToChart(Sorting_Chart, "Insertion Sort", algorythmDuration.Elapsed);
+          }
+        }
+      }
+
+      else
+      {
+
+      }
+    }
+
+
+    private void Sorting_Chart_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void SortingProcess_ProgressBar_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void String_TxtBox_TextChanged(object sender, EventArgs e)
+    {
+
     }
   }
 }
