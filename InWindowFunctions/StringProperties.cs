@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SortingApp
 {
   public partial class Sorter : Form
   {
-    Strings s = new Strings();
+    NumbersString s = new NumbersString();
 
     int maxLength = 10;
     int maxValue = 10;
@@ -17,7 +13,6 @@ namespace SortingApp
     private void MaxStringLength_Label_ValueChanged(object sender, EventArgs e)
     {
       maxLength = (int)MaxStringLength_Label.Value;
-
     }
     private void MaxStringValue_Label_ValueChanged(object sender, EventArgs e)
     {

@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SortingApp
 {
   public partial class Sorter : Form
   {
-    Choice c = new Choice();
+    SortingChoice c = new SortingChoice();
 
     private void BubbleSort_CkBox_CheckedChanged(object sender, EventArgs e)
     {

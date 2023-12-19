@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SortingApp
 {
-  internal class Choice
+  internal class SortingChoice
   {
-    public Choice() { }
+    public SortingChoice() { }
 
     public bool bubbleSelect = false;
     public bool selectionSelect = false;
@@ -19,7 +15,7 @@ namespace SortingApp
     public bool ascendingSorting = true;
     public bool descendingSorting = false;
 
-    internal void UseRandomSortingOrder()
+    public void UseRandomSortingOrder()
     {
       Random randomNumber = new Random();
 

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace SortingApp
 {
@@ -10,22 +6,18 @@ namespace SortingApp
   {
     public List<int> SortASC(List<int> list)
     {
-      int temporaryValue = 0;
-
-      for (int i = 0; i < list.Count() - 1; i++)
+      for (int i = 1; i < list.Count; i++)
       {
-        if (list[i] > list[i + 1])
+        int temporaryValue = list[i];
+        int j = i - 1;
+
+        while (j >= 0 && list[j] > temporaryValue)
         {
-          for (int j = 0; j < i; j++)
-          {
-            if (list[i + 1] < list[j])
-            {
-              temporaryValue = list[j];
-              list[j] = list[i + 1];
-              list[i + 1] = temporaryValue;
-            }
-          }
+          list[j + 1] = list[j];
+          j--;
         }
+
+        list[j + 1] = temporaryValue;
       }
 
       return list;
@@ -33,22 +25,18 @@ namespace SortingApp
 
     public List<int> SortDSC(List<int> list)
     {
-      int temporaryValue = 0;
-
-      for (int i = 0; i < list.Count() - 1; i++)
+      for (int i = 1; i < list.Count; i++)
       {
-        if (list[i] > list[i + 1])
+        int temporaryValue = list[i];
+        int j = i - 1;
+
+        while (j >= 0 && list[j] < temporaryValue)
         {
-          for (int j = 0; j < i; j++)
-          {
-            if (list[i + 1] > list[j])
-            {
-              temporaryValue = list[j];
-              list[j] = list[i + 1];
-              list[i + 1] = temporaryValue;
-            }
-          }
+          list[j + 1] = list[j];
+          j--;
         }
+
+        list[j + 1] = temporaryValue;
       }
 
       return list;
