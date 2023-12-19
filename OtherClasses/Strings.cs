@@ -21,6 +21,16 @@ namespace SortingApp
       }
     }
 
+    public bool IsNotEmpty()
+    {
+      if(stringOfRandoms.Count > 1)
+      {
+        return true;
+      }
+
+      return false;
+    }
+
     internal void ClearList()
     {
       stringOfRandoms.Clear();

@@ -28,6 +28,18 @@ namespace SortingApp
       Sorting_Chart.Series.Clear();
       Stopwatch algorythmDuration = new Stopwatch();
 
+      if (!s.IsNotEmpty())
+      {
+        MessageBox.Show("You might have forgotten about string of number...", "Error!", MessageBoxButtons.OK);
+        return;
+      }
+
+      if (!BubbleSort_CkBox.Checked && !SelectionSort_CkBox.Checked && !InsertionSort_CkBox.Checked && !QuickSort_CkBox.Checked && !MergeSort_CkBox.Checked)
+      {
+        MessageBox.Show("Check at least one algorythm", "Error!", MessageBoxButtons.OK);
+        return;
+      }
+
       if (c.ascendingSorting == true)
       {
         if (c.bubbleSelect == true)

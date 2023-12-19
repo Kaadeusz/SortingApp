@@ -232,14 +232,12 @@
       // 
       resources.ApplyResources(this.SortingProcess_ProgressBar, "SortingProcess_ProgressBar");
       this.SortingProcess_ProgressBar.Name = "SortingProcess_ProgressBar";
-      this.SortingProcess_ProgressBar.Click += new System.EventHandler(this.SortingProcess_ProgressBar_Click);
       // 
       // String_TxtBox
       // 
       resources.ApplyResources(this.String_TxtBox, "String_TxtBox");
       this.String_TxtBox.Name = "String_TxtBox";
       this.String_TxtBox.ReadOnly = true;
-      this.String_TxtBox.TextChanged += new System.EventHandler(this.String_TxtBox_TextChanged);
       // 
       // Sorting_Chart
       // 
