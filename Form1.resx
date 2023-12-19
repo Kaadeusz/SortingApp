@@ -502,7 +502,7 @@
     <value>92, 20</value>
   </data>
   <data name="MaxStringLength_Label.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>10</value>
   </data>
   <data name="&gt;&gt;MaxStringLength_Label.Name" xml:space="preserve">
     <value>MaxStringLength_Label</value>
@@ -523,7 +523,7 @@
     <value>92, 20</value>
   </data>
   <data name="MaxStringValue_Label.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>10</value>
   </data>
   <data name="&gt;&gt;MaxStringValue_Label.Name" xml:space="preserve">
     <value>MaxStringValue_Label</value>
@@ -594,52 +594,55 @@
   <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="String_TxtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>14, 330</value>
   </data>
-  <data name="textBox1.Multiline" type="System.Boolean, mscorlib">
+  <data name="String_TxtBox.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="String_TxtBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>504, 108</value>
   </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="String_TxtBox.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
+  <data name="String_TxtBox.Text" xml:space="preserve">
+    <value>No numbers generated yet</value>
   </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;String_TxtBox.Name" xml:space="preserve">
+    <value>String_TxtBox</value>
+  </data>
+  <data name="&gt;&gt;String_TxtBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;String_TxtBox.Parent" xml:space="preserve">
     <value>splitContainer1.Panel2</value>
   </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;String_TxtBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="chart1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Sorting_Chart.Location" type="System.Drawing.Point, System.Drawing">
     <value>14, 14</value>
   </data>
-  <data name="chart1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Sorting_Chart.Size" type="System.Drawing.Size, System.Drawing">
     <value>504, 310</value>
   </data>
-  <data name="chart1.TabIndex" type="System.Int32, mscorlib">
+  <data name="Sorting_Chart.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="chart1.Text" xml:space="preserve">
-    <value>chart1</value>
+  <data name="Sorting_Chart.Text" xml:space="preserve">
+    <value>Sorting time</value>
   </data>
-  <data name="&gt;&gt;chart1.Name" xml:space="preserve">
-    <value>chart1</value>
+  <data name="&gt;&gt;Sorting_Chart.Name" xml:space="preserve">
+    <value>Sorting_Chart</value>
   </data>
-  <data name="&gt;&gt;chart1.Type" xml:space="preserve">
+  <data name="&gt;&gt;Sorting_Chart.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataVisualization.Charting.Chart, System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</value>
   </data>
-  <data name="&gt;&gt;chart1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Sorting_Chart.Parent" xml:space="preserve">
     <value>splitContainer1.Panel2</value>
   </data>
-  <data name="&gt;&gt;chart1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Sorting_Chart.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">

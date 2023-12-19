@@ -18,8 +18,9 @@ namespace SortingApp
       InitializeComponent();
     }
 
-    int maxLength = 0;
-    int maxValue = 0;
+    Choice c = new Choice();
+    int maxLength = 10;
+    int maxValue = 10;
 
     private void MaxStringLength_Label_ValueChanged(object sender, EventArgs e)
     {
@@ -48,7 +49,7 @@ namespace SortingApp
       }
 
       s.GenerateRandoms(maxLength, maxValue);
-      s.ConvertToTextBox(textBox1);
+      s.ConvertToTextBox(String_TxtBox);
     }
 
     private void SortingProcess_ProgressBar_Click(object sender, EventArgs e)
@@ -56,9 +57,81 @@ namespace SortingApp
 
     }
 
-    private void textBox1_TextChanged(object sender, EventArgs e)
+    private void String_TxtBox_TextChanged(object sender, EventArgs e)
     {
 
+    }
+
+    private void BubbleSort_CkBox_CheckedChanged(object sender, EventArgs e)
+    {
+      if (BubbleSort_CkBox.Checked)
+      {
+        c.bubbleSelect = true;
+        return;
+      }
+
+      c.bubbleSelect = false; 
+    }
+
+    private void SelectionSort_CkBox_CheckedChanged(object sender, EventArgs e)
+    {
+      if (SelectionSort_CkBox.Checked)
+      {
+        c.selectionSelect = true;
+        return;
+      }
+
+      c.selectionSelect = false;
+    }
+
+    private void InsertionSort_CkBox_CheckedChanged(object sender, EventArgs e)
+    {
+      if (InsertionSort_CkBox.Checked)
+      {
+        c.insertionSelect = true;
+        return;
+      }
+
+      c.insertionSelect = false;
+    }
+
+    private void MergeSort_CkBox_CheckedChanged(object sender, EventArgs e)
+    {
+      if (MergeSort_CkBox.Checked)
+      {
+        c.mergeSelect = true;
+        return;
+      }
+
+      c.mergeSelect = false;
+    }
+
+    private void QuickSort_CkBox_CheckedChanged(object sender, EventArgs e)
+    {
+      if (QuickSort_CkBox.Checked)
+      {
+        c.quickSelect = true;
+        return;
+      }
+
+      c.quickSelect = false;
+    }
+
+    private void Ascending_RdButton_CheckedChanged(object sender, EventArgs e)
+    {
+      c.ascendingSorting = true;
+      c.descendingSorting = false;
+    }
+
+    private void Descending_RdButton_CheckedChanged(object sender, EventArgs e)
+    {
+      c.ascendingSorting = false;
+      c.descendingSorting = true;
+    }
+
+    private void Random_RdButton_CheckedChanged(object sender, EventArgs e)
+    {
+      c.UseRandomSortingOrder();
     }
   }
 }

@@ -6,14 +6,14 @@ using System.Windows.Forms;
 
 namespace SortingApp
 {
-  public class Strings
+  internal class Strings
   {
     public Strings() { }
 
     private Random randomNumber = new Random();
     private List<int> stringOfRandoms = new List<int>();
 
-    public void GenerateRandoms(int stringLength, int maxValue)
+    internal void GenerateRandoms(int stringLength, int maxValue)
     {
       for (int i = 0; i < stringLength; i++)
       {
@@ -21,7 +21,7 @@ namespace SortingApp
       }
     }
 
-    public void ConvertToTextBox(TextBox box)
+    internal void ConvertToTextBox(TextBox box)
     {
       string wholeString = string.Format("{0}, ", stringOfRandoms[0]);
 
@@ -33,6 +33,5 @@ namespace SortingApp
 
       box.Text = wholeString;
     }
-
   }
 }
