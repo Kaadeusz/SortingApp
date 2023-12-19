@@ -9,5 +9,8 @@ namespace SortingApp
   internal interface ISorting
   {
     List<int> SortASC(List<int> list);
+
+    List<int> SortDSC(List<int> list);
+
   }
 }
