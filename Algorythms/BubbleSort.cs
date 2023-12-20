@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace SortingApp
 {
-  internal class BubbleSort : ISorting
+  internal class BubbleSort : ISorting<BubbleSort>
   {
     public List<int> SortASC(List<int> list)
     {

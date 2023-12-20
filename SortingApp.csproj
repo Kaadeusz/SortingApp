@@ -49,6 +49,8 @@
   <ItemGroup>
     <Compile Include="Algorythms\BubbleSort.cs" />
     <Compile Include="Algorythms\InsertionSort.cs" />
+    <Compile Include="Algorythms\MergeSort.cs" />
+    <Compile Include="Algorythms\QuickSort.cs" />
     <Compile Include="Algorythms\SelectionSort.cs" />
     <Compile Include="OtherClasses\SortingChoice.cs" />
     <Compile Include="Form1.cs">
@@ -57,7 +59,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="InWindowFunctions\AlgorythmsProperties.cs">
+    <Compile Include="InWindowFunctions\AlgorythmChoice.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="InWindowFunctions\ChartProperties.cs">

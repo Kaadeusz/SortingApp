@@ -9,7 +9,7 @@ namespace SortingApp
     public NumbersString() { }
 
     private Random randomNumber = new Random();
-    private List<int> stringOfRandoms = new List<int>();
+    public List<int> stringOfRandoms = new List<int>();
 
     public void GenerateRandoms(int stringLength, int maxValue)
     {
@@ -19,13 +19,13 @@ namespace SortingApp
       }
     }
 
-    public void ConvertToTextBox(TextBox box)
+    public void ConvertToTextBox(TextBox box, List<int> list)
     {
-      string wholeString = string.Format("{0}, ", stringOfRandoms[0]);
+      string wholeString = string.Format("{0}, ", list[0]);
 
-      for (int i = 1; i < stringOfRandoms.Count; i++)
+      for (int i = 1; i < list.Count; i++)
       {
-        string temporaryValue = string.Format("{0}, ", stringOfRandoms[i]);
+        string temporaryValue = string.Format("{0}, ", list[i]);
         wholeString = wholeString + temporaryValue;
       }
 

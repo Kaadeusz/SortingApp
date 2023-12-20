@@ -2,7 +2,7 @@
 
 namespace SortingApp
 {
-  internal class SelectionSort : ISorting
+  internal class SelectionSort : ISorting<SelectionSort>
   {
     public List<int> SortASC(List<int> list)
     {

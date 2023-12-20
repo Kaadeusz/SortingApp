@@ -125,13 +125,64 @@
   <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Status_Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Status_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 16</value>
+  </data>
+  <data name="Status_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="Status_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Status_Label.Text" xml:space="preserve">
+    <value>Not generated</value>
+  </data>
+  <data name="&gt;&gt;Status_Label.Name" xml:space="preserve">
+    <value>Status_Label</value>
+  </data>
+  <data name="&gt;&gt;Status_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Status_Label.Parent" xml:space="preserve">
+    <value>Status_Box</value>
+  </data>
+  <data name="&gt;&gt;Status_Label.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Status_Box.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 365</value>
+  </data>
+  <data name="Status_Box.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 41</value>
+  </data>
+  <data name="Status_Box.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Status_Box.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="&gt;&gt;Status_Box.Name" xml:space="preserve">
+    <value>Status_Box</value>
+  </data>
+  <data name="&gt;&gt;Status_Box.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Status_Box.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Status_Box.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="SortString_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 378</value>
+    <value>12, 412</value>
   </data>
   <data name="SortString_Button.Size" type="System.Drawing.Size, System.Drawing">
     <value>240, 26</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="SortString_Button.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
@@ -148,7 +199,7 @@
     <value>splitContainer1.Panel1</value>
   </data>
   <data name="&gt;&gt;SortString_Button.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="Random_RdButton.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -232,10 +283,10 @@
     <value>2</value>
   </data>
   <data name="SortingProperties_Box.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 272</value>
+    <value>12, 262</value>
   </data>
   <data name="SortingProperties_Box.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 100</value>
+    <value>240, 97</value>
   </data>
   <data name="SortingProperties_Box.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -253,7 +304,7 @@
     <value>splitContainer1.Panel1</value>
   </data>
   <data name="&gt;&gt;SortingProperties_Box.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="QuickSort_CkBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -394,7 +445,7 @@
     <value>12, 134</value>
   </data>
   <data name="Algorythms_Box.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 132</value>
+    <value>240, 122</value>
   </data>
   <data name="Algorythms_Box.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -412,7 +463,7 @@
     <value>splitContainer1.Panel1</value>
   </data>
   <data name="&gt;&gt;Algorythms_Box.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="GenerateString_Button.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 80</value>
@@ -559,27 +610,6 @@
     <value>splitContainer1.Panel1</value>
   </data>
   <data name="&gt;&gt;StringPropertiers_Box.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="SortingProcess_ProgressBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 410</value>
-  </data>
-  <data name="SortingProcess_ProgressBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 24</value>
-  </data>
-  <data name="SortingProcess_ProgressBar.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;SortingProcess_ProgressBar.Name" xml:space="preserve">
-    <value>SortingProcess_ProgressBar</value>
-  </data>
-  <data name="&gt;&gt;SortingProcess_ProgressBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SortingProcess_ProgressBar.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel1</value>
-  </data>
-  <data name="&gt;&gt;SortingProcess_ProgressBar.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">

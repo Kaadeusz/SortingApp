@@ -50,9 +50,10 @@
       this.label1 = new System.Windows.Forms.Label();
       this.MaxStringLength_Label = new System.Windows.Forms.NumericUpDown();
       this.MaxStringValue_Label = new System.Windows.Forms.NumericUpDown();
-      this.SortingProcess_ProgressBar = new System.Windows.Forms.ProgressBar();
       this.String_TxtBox = new System.Windows.Forms.TextBox();
       this.Sorting_Chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+      this.Status_Box = new System.Windows.Forms.GroupBox();
+      this.Status_Label = new System.Windows.Forms.Label();
       ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
       this.splitContainer1.Panel1.SuspendLayout();
       this.splitContainer1.Panel2.SuspendLayout();
@@ -63,6 +64,7 @@
       ((System.ComponentModel.ISupportInitialize)(this.MaxStringLength_Label)).BeginInit();
       ((System.ComponentModel.ISupportInitialize)(this.MaxStringValue_Label)).BeginInit();
       ((System.ComponentModel.ISupportInitialize)(this.Sorting_Chart)).BeginInit();
+      this.Status_Box.SuspendLayout();
       this.SuspendLayout();
       // 
       // splitContainer1
@@ -72,11 +74,11 @@
       // 
       // splitContainer1.Panel1
       // 
+      this.splitContainer1.Panel1.Controls.Add(this.Status_Box);
       this.splitContainer1.Panel1.Controls.Add(this.SortString_Button);
       this.splitContainer1.Panel1.Controls.Add(this.SortingProperties_Box);
       this.splitContainer1.Panel1.Controls.Add(this.Algorythms_Box);
       this.splitContainer1.Panel1.Controls.Add(this.StringPropertiers_Box);
-      this.splitContainer1.Panel1.Controls.Add(this.SortingProcess_ProgressBar);
       // 
       // splitContainer1.Panel2
       // 
@@ -228,11 +230,6 @@
             0});
       this.MaxStringValue_Label.ValueChanged += new System.EventHandler(this.MaxStringValue_Label_ValueChanged);
       // 
-      // SortingProcess_ProgressBar
-      // 
-      resources.ApplyResources(this.SortingProcess_ProgressBar, "SortingProcess_ProgressBar");
-      this.SortingProcess_ProgressBar.Name = "SortingProcess_ProgressBar";
-      // 
       // String_TxtBox
       // 
       resources.ApplyResources(this.String_TxtBox, "String_TxtBox");
@@ -253,7 +250,18 @@
       series1.Legend = "Legend1";
       series1.Name = "Series1";
       this.Sorting_Chart.Series.Add(series1);
-      this.Sorting_Chart.Click += new System.EventHandler(this.Sorting_Chart_Click);
+      // 
+      // Status_Box
+      // 
+      this.Status_Box.Controls.Add(this.Status_Label);
+      resources.ApplyResources(this.Status_Box, "Status_Box");
+      this.Status_Box.Name = "Status_Box";
+      this.Status_Box.TabStop = false;
+      // 
+      // Status_Label
+      // 
+      resources.ApplyResources(this.Status_Label, "Status_Label");
+      this.Status_Label.Name = "Status_Label";
       // 
       // Sorter
       // 
@@ -275,6 +283,8 @@
       ((System.ComponentModel.ISupportInitialize)(this.MaxStringLength_Label)).EndInit();
       ((System.ComponentModel.ISupportInitialize)(this.MaxStringValue_Label)).EndInit();
       ((System.ComponentModel.ISupportInitialize)(this.Sorting_Chart)).EndInit();
+      this.Status_Box.ResumeLayout(false);
+      this.Status_Box.PerformLayout();
       this.ResumeLayout(false);
 
     }
@@ -292,7 +302,6 @@
     private System.Windows.Forms.CheckBox BubbleSort_CkBox;
     private System.Windows.Forms.DataVisualization.Charting.Chart Sorting_Chart;
     private System.Windows.Forms.NumericUpDown MaxStringValue_Label;
-    private System.Windows.Forms.ProgressBar SortingProcess_ProgressBar;
     private System.Windows.Forms.RadioButton Descending_RdButton;
     private System.Windows.Forms.RadioButton Ascending_RdButton;
     private System.Windows.Forms.Button GenerateString_Button;
@@ -302,5 +311,7 @@
     private System.Windows.Forms.RadioButton Random_RdButton;
     private System.Windows.Forms.Button SortString_Button;
     private System.Windows.Forms.TextBox String_TxtBox;
+    private System.Windows.Forms.GroupBox Status_Box;
+    private System.Windows.Forms.Label Status_Label;
   }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SortingApp
 {
-  internal interface ISorting
+  internal interface ISorting<T>
   {
     List<int> SortASC(List<int> list);
 

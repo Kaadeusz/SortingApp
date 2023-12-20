@@ -4,8 +4,6 @@ namespace SortingApp
 {
   internal class SortingChoice
   {
-    public SortingChoice() { }
-
     public bool bubbleSelect = false;
     public bool selectionSelect = false;
     public bool insertionSelect = false;

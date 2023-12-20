@@ -36,7 +36,9 @@ namespace SortingApp
       }
 
       s.GenerateRandoms(maxLength, maxValue);
-      s.ConvertToTextBox(String_TxtBox);
+      s.ConvertToTextBox(String_TxtBox, s.stringOfRandoms);
+
+      Status_Label.Text = "String generated; not sorted";
     }
   }
 }
