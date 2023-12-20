@@ -33,6 +33,8 @@
       System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
       System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
       this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+      this.Status_Box = new System.Windows.Forms.GroupBox();
+      this.Status_Label = new System.Windows.Forms.Label();
       this.SortString_Button = new System.Windows.Forms.Button();
       this.SortingProperties_Box = new System.Windows.Forms.GroupBox();
       this.Random_RdButton = new System.Windows.Forms.RadioButton();
@@ -46,25 +48,23 @@
       this.BubbleSort_CkBox = new System.Windows.Forms.CheckBox();
       this.StringPropertiers_Box = new System.Windows.Forms.GroupBox();
       this.GenerateString_Button = new System.Windows.Forms.Button();
-      this.label2 = new System.Windows.Forms.Label();
-      this.label1 = new System.Windows.Forms.Label();
+      this.MaxLength_Label = new System.Windows.Forms.Label();
+      this.MaxValue_Label = new System.Windows.Forms.Label();
       this.MaxStringLength_Label = new System.Windows.Forms.NumericUpDown();
       this.MaxStringValue_Label = new System.Windows.Forms.NumericUpDown();
       this.String_TxtBox = new System.Windows.Forms.TextBox();
       this.Sorting_Chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-      this.Status_Box = new System.Windows.Forms.GroupBox();
-      this.Status_Label = new System.Windows.Forms.Label();
       ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
       this.splitContainer1.Panel1.SuspendLayout();
       this.splitContainer1.Panel2.SuspendLayout();
       this.splitContainer1.SuspendLayout();
+      this.Status_Box.SuspendLayout();
       this.SortingProperties_Box.SuspendLayout();
       this.Algorythms_Box.SuspendLayout();
       this.StringPropertiers_Box.SuspendLayout();
       ((System.ComponentModel.ISupportInitialize)(this.MaxStringLength_Label)).BeginInit();
       ((System.ComponentModel.ISupportInitialize)(this.MaxStringValue_Label)).BeginInit();
       ((System.ComponentModel.ISupportInitialize)(this.Sorting_Chart)).BeginInit();
-      this.Status_Box.SuspendLayout();
       this.SuspendLayout();
       // 
       // splitContainer1
@@ -84,6 +84,18 @@
       // 
       this.splitContainer1.Panel2.Controls.Add(this.String_TxtBox);
       this.splitContainer1.Panel2.Controls.Add(this.Sorting_Chart);
+      // 
+      // Status_Box
+      // 
+      this.Status_Box.Controls.Add(this.Status_Label);
+      resources.ApplyResources(this.Status_Box, "Status_Box");
+      this.Status_Box.Name = "Status_Box";
+      this.Status_Box.TabStop = false;
+      // 
+      // Status_Label
+      // 
+      resources.ApplyResources(this.Status_Label, "Status_Label");
+      this.Status_Label.Name = "Status_Label";
       // 
       // SortString_Button
       // 
@@ -173,8 +185,8 @@
       // StringPropertiers_Box
       // 
       this.StringPropertiers_Box.Controls.Add(this.GenerateString_Button);
-      this.StringPropertiers_Box.Controls.Add(this.label2);
-      this.StringPropertiers_Box.Controls.Add(this.label1);
+      this.StringPropertiers_Box.Controls.Add(this.MaxLength_Label);
+      this.StringPropertiers_Box.Controls.Add(this.MaxValue_Label);
       this.StringPropertiers_Box.Controls.Add(this.MaxStringLength_Label);
       this.StringPropertiers_Box.Controls.Add(this.MaxStringValue_Label);
       resources.ApplyResources(this.StringPropertiers_Box, "StringPropertiers_Box");
@@ -188,15 +200,15 @@
       this.GenerateString_Button.UseVisualStyleBackColor = true;
       this.GenerateString_Button.Click += new System.EventHandler(this.GenerateString_Button_Click);
       // 
-      // label2
+      // MaxLength_Label
       // 
-      resources.ApplyResources(this.label2, "label2");
-      this.label2.Name = "label2";
+      resources.ApplyResources(this.MaxLength_Label, "MaxLength_Label");
+      this.MaxLength_Label.Name = "MaxLength_Label";
       // 
-      // label1
+      // MaxValue_Label
       // 
-      resources.ApplyResources(this.label1, "label1");
-      this.label1.Name = "label1";
+      resources.ApplyResources(this.MaxValue_Label, "MaxValue_Label");
+      this.MaxValue_Label.Name = "MaxValue_Label";
       // 
       // MaxStringLength_Label
       // 
@@ -208,7 +220,7 @@
             0});
       this.MaxStringLength_Label.Name = "MaxStringLength_Label";
       this.MaxStringLength_Label.Value = new decimal(new int[] {
-            10,
+            100,
             0,
             0,
             0});
@@ -224,7 +236,7 @@
             0});
       this.MaxStringValue_Label.Name = "MaxStringValue_Label";
       this.MaxStringValue_Label.Value = new decimal(new int[] {
-            10,
+            100,
             0,
             0,
             0});
@@ -251,29 +263,20 @@
       series1.Name = "Series1";
       this.Sorting_Chart.Series.Add(series1);
       // 
-      // Status_Box
-      // 
-      this.Status_Box.Controls.Add(this.Status_Label);
-      resources.ApplyResources(this.Status_Box, "Status_Box");
-      this.Status_Box.Name = "Status_Box";
-      this.Status_Box.TabStop = false;
-      // 
-      // Status_Label
-      // 
-      resources.ApplyResources(this.Status_Label, "Status_Label");
-      this.Status_Label.Name = "Status_Label";
-      // 
       // Sorter
       // 
       resources.ApplyResources(this, "$this");
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.Controls.Add(this.splitContainer1);
+      this.MaximizeBox = false;
       this.Name = "Sorter";
       this.splitContainer1.Panel1.ResumeLayout(false);
       this.splitContainer1.Panel2.ResumeLayout(false);
       this.splitContainer1.Panel2.PerformLayout();
       ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
       this.splitContainer1.ResumeLayout(false);
+      this.Status_Box.ResumeLayout(false);
+      this.Status_Box.PerformLayout();
       this.SortingProperties_Box.ResumeLayout(false);
       this.SortingProperties_Box.PerformLayout();
       this.Algorythms_Box.ResumeLayout(false);
@@ -283,8 +286,6 @@
       ((System.ComponentModel.ISupportInitialize)(this.MaxStringLength_Label)).EndInit();
       ((System.ComponentModel.ISupportInitialize)(this.MaxStringValue_Label)).EndInit();
       ((System.ComponentModel.ISupportInitialize)(this.Sorting_Chart)).EndInit();
-      this.Status_Box.ResumeLayout(false);
-      this.Status_Box.PerformLayout();
       this.ResumeLayout(false);
 
     }
@@ -305,8 +306,8 @@
     private System.Windows.Forms.RadioButton Descending_RdButton;
     private System.Windows.Forms.RadioButton Ascending_RdButton;
     private System.Windows.Forms.Button GenerateString_Button;
-    private System.Windows.Forms.Label label2;
-    private System.Windows.Forms.Label label1;
+    private System.Windows.Forms.Label MaxLength_Label;
+    private System.Windows.Forms.Label MaxValue_Label;
     private System.Windows.Forms.NumericUpDown MaxStringLength_Label;
     private System.Windows.Forms.RadioButton Random_RdButton;
     private System.Windows.Forms.Button SortString_Button;

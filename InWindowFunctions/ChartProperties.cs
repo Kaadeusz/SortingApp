@@ -37,7 +37,6 @@ namespace SortingApp
         sorting.SortASC(copy);
         algorythmDuration.Stop();
       }
-
       else
       {
         algorythmDuration.Start();
@@ -56,7 +55,6 @@ namespace SortingApp
         MessageBox.Show("You might have forgotten about string of number...", "Error!", MessageBoxButtons.OK);
         return;
       }
-
       if (!BubbleSort_CkBox.Checked && !SelectionSort_CkBox.Checked && !InsertionSort_CkBox.Checked && !QuickSort_CkBox.Checked && !MergeSort_CkBox.Checked)
       {
         MessageBox.Show("Check at least one algorythm", "Error!", MessageBoxButtons.OK);
@@ -72,32 +70,27 @@ namespace SortingApp
           List<int> bubble = new List<int>();
           InitializeAlgorythm<BubbleSort>(bbl_Sort, true, "Bubble Sort", bubble);
         }
-
         if (c.selectionSelect == true)
         {
           List<int> selection = new List<int>();
           InitializeAlgorythm<SelectionSort>(slct_Sort, true, "Selection Sort", selection);
         }
-
         if (c.insertionSelect == true)
         {
           List<int> insertion = new List<int>();
           InitializeAlgorythm<InsertionSort>(isrt_Sort, true, "Insertion Sort", insertion);
         }
-
         if (c.mergeSelect == true)
         {
           List<int> merge = new List<int>();
           InitializeAlgorythm<MergeSort>(mrg_Sort, true, "Merge Sort", merge);
         }
-
         if (c.quickSelect == true)
         {
           List<int> quick = new List<int>();
           InitializeAlgorythm<QuickSort>(q_Sort, true, "Quick Sort", quick);
         }
       }
-
       else
       {
         if (c.bubbleSelect == true)
@@ -105,25 +98,21 @@ namespace SortingApp
           List<int> bubble = new List<int>();
           InitializeAlgorythm<BubbleSort>(bbl_Sort, false, "Bubble Sort", bubble);
         }
-
         if (c.selectionSelect == true)
         {
           List<int> selection = new List<int>();
           InitializeAlgorythm<SelectionSort>(slct_Sort, false, "Selection Sort", selection);
         }
-
         if (c.insertionSelect == true)
         {
           List<int> insertion = new List<int>();
           InitializeAlgorythm<InsertionSort>(isrt_Sort, false, "Insertion Sort", insertion);
         }
-
         if (c.mergeSelect == true)
         {
           List<int> merge = new List<int>();
           InitializeAlgorythm<MergeSort>(mrg_Sort, false, "Merge Sort", merge);
         }
-
         if (c.quickSelect == true)
         {
           List<int> quick = new List<int>();

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace SortingApp
 {
@@ -11,6 +7,5 @@ namespace SortingApp
     List<int> SortASC(List<int> list);
 
     List<int> SortDSC(List<int> list);
-
   }
 }

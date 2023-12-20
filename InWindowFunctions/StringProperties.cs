@@ -7,8 +7,8 @@ namespace SortingApp
   {
     NumbersString s = new NumbersString();
 
-    int maxLength = 10;
-    int maxValue = 10;
+    int maxLength = 100;
+    int maxValue = 100;
 
     private void MaxStringLength_Label_ValueChanged(object sender, EventArgs e)
     {
@@ -28,7 +28,6 @@ namespace SortingApp
         MessageBox.Show("String should not contain ony 0's (check Max Value and try again)", "Error!", MessageBoxButtons.OK);
         return;
       }
-
       if (maxLength < 2)
       {
         MessageBox.Show("String can't be shorter than 2 characters (check Max Length and try again)", "Error!", MessageBoxButtons.OK);
