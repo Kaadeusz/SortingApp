@@ -205,7 +205,7 @@
     <value>True</value>
   </data>
   <data name="Random_RdButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 68</value>
+    <value>16, 42</value>
   </data>
   <data name="Random_RdButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 17</value>
@@ -232,7 +232,7 @@
     <value>True</value>
   </data>
   <data name="Descending_RdButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>130, 35</value>
+    <value>130, 19</value>
   </data>
   <data name="Descending_RdButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 17</value>
@@ -259,7 +259,7 @@
     <value>True</value>
   </data>
   <data name="Ascending_RdButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 35</value>
+    <value>16, 19</value>
   </data>
   <data name="Ascending_RdButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 17</value>
@@ -283,10 +283,10 @@
     <value>2</value>
   </data>
   <data name="SortingProperties_Box.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 262</value>
+    <value>12, 288</value>
   </data>
   <data name="SortingProperties_Box.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 97</value>
+    <value>240, 71</value>
   </data>
   <data name="SortingProperties_Box.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -310,7 +310,7 @@
     <value>True</value>
   </data>
   <data name="QuickSort_CkBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>130, 62</value>
+    <value>130, 42</value>
   </data>
   <data name="QuickSort_CkBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 17</value>
@@ -337,7 +337,7 @@
     <value>True</value>
   </data>
   <data name="MergeSort_CkBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>130, 29</value>
+    <value>130, 19</value>
   </data>
   <data name="MergeSort_CkBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>78, 17</value>
@@ -364,7 +364,7 @@
     <value>True</value>
   </data>
   <data name="SelectionSort_CkBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 62</value>
+    <value>16, 42</value>
   </data>
   <data name="SelectionSort_CkBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>92, 17</value>
@@ -391,7 +391,7 @@
     <value>True</value>
   </data>
   <data name="InsertionSort_CkBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 94</value>
+    <value>16, 65</value>
   </data>
   <data name="InsertionSort_CkBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 17</value>
@@ -418,7 +418,7 @@
     <value>True</value>
   </data>
   <data name="BubbleSort_CkBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 29</value>
+    <value>16, 19</value>
   </data>
   <data name="BubbleSort_CkBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 17</value>
@@ -442,10 +442,10 @@
     <value>4</value>
   </data>
   <data name="Algorythms_Box.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 134</value>
+    <value>12, 187</value>
   </data>
   <data name="Algorythms_Box.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 122</value>
+    <value>240, 95</value>
   </data>
   <data name="Algorythms_Box.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -465,11 +465,119 @@
   <data name="&gt;&gt;Algorythms_Box.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="GenerateRandomly_RdButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GenerateRandomly_RdButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 106</value>
+  </data>
+  <data name="GenerateRandomly_RdButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 17</value>
+  </data>
+  <data name="GenerateRandomly_RdButton.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="GenerateRandomly_RdButton.Text" xml:space="preserve">
+    <value>Randomly</value>
+  </data>
+  <data name="&gt;&gt;GenerateRandomly_RdButton.Name" xml:space="preserve">
+    <value>GenerateRandomly_RdButton</value>
+  </data>
+  <data name="&gt;&gt;GenerateRandomly_RdButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GenerateRandomly_RdButton.Parent" xml:space="preserve">
+    <value>StringPropertiers_Box</value>
+  </data>
+  <data name="&gt;&gt;GenerateRandomly_RdButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GenerateDecreasing_RdButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GenerateDecreasing_RdButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 83</value>
+  </data>
+  <data name="GenerateDecreasing_RdButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 17</value>
+  </data>
+  <data name="GenerateDecreasing_RdButton.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="GenerateDecreasing_RdButton.Text" xml:space="preserve">
+    <value>Decreasing</value>
+  </data>
+  <data name="&gt;&gt;GenerateDecreasing_RdButton.Name" xml:space="preserve">
+    <value>GenerateDecreasing_RdButton</value>
+  </data>
+  <data name="&gt;&gt;GenerateDecreasing_RdButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GenerateDecreasing_RdButton.Parent" xml:space="preserve">
+    <value>StringPropertiers_Box</value>
+  </data>
+  <data name="&gt;&gt;GenerateDecreasing_RdButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GenerateIncreasing_RdButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GenerateIncreasing_RdButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 83</value>
+  </data>
+  <data name="GenerateIncreasing_RdButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="GenerateIncreasing_RdButton.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="GenerateIncreasing_RdButton.Text" xml:space="preserve">
+    <value>Increasing</value>
+  </data>
+  <data name="&gt;&gt;GenerateIncreasing_RdButton.Name" xml:space="preserve">
+    <value>GenerateIncreasing_RdButton</value>
+  </data>
+  <data name="&gt;&gt;GenerateIncreasing_RdButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GenerateIncreasing_RdButton.Parent" xml:space="preserve">
+    <value>StringPropertiers_Box</value>
+  </data>
+  <data name="&gt;&gt;GenerateIncreasing_RdButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GenerateIn_Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GenerateIn_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 67</value>
+  </data>
+  <data name="GenerateIn_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="GenerateIn_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="GenerateIn_Label.Text" xml:space="preserve">
+    <value>Generate in order</value>
+  </data>
+  <data name="&gt;&gt;GenerateIn_Label.Name" xml:space="preserve">
+    <value>GenerateIn_Label</value>
+  </data>
+  <data name="&gt;&gt;GenerateIn_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GenerateIn_Label.Parent" xml:space="preserve">
+    <value>StringPropertiers_Box</value>
+  </data>
+  <data name="&gt;&gt;GenerateIn_Label.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="GenerateString_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 80</value>
+    <value>16, 141</value>
   </data>
   <data name="GenerateString_Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 23</value>
+    <value>206, 22</value>
   </data>
   <data name="GenerateString_Button.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -487,13 +595,13 @@
     <value>StringPropertiers_Box</value>
   </data>
   <data name="&gt;&gt;GenerateString_Button.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>4</value>
   </data>
   <data name="MaxLength_Label.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="MaxLength_Label.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 28</value>
+    <value>127, 16</value>
   </data>
   <data name="MaxLength_Label.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 13</value>
@@ -514,7 +622,7 @@
     <value>StringPropertiers_Box</value>
   </data>
   <data name="&gt;&gt;MaxLength_Label.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="MaxValue_Label.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -523,7 +631,7 @@
     <value>NoControl</value>
   </data>
   <data name="MaxValue_Label.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 28</value>
+    <value>13, 16</value>
   </data>
   <data name="MaxValue_Label.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 13</value>
@@ -544,10 +652,10 @@
     <value>StringPropertiers_Box</value>
   </data>
   <data name="&gt;&gt;MaxValue_Label.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="MaxStringLength_Label.Location" type="System.Drawing.Point, System.Drawing">
-    <value>130, 54</value>
+    <value>130, 32</value>
   </data>
   <data name="MaxStringLength_Label.Size" type="System.Drawing.Size, System.Drawing">
     <value>92, 20</value>
@@ -565,10 +673,10 @@
     <value>StringPropertiers_Box</value>
   </data>
   <data name="&gt;&gt;MaxStringLength_Label.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="MaxStringValue_Label.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 54</value>
+    <value>16, 32</value>
   </data>
   <data name="MaxStringValue_Label.Size" type="System.Drawing.Size, System.Drawing">
     <value>92, 20</value>
@@ -586,13 +694,13 @@
     <value>StringPropertiers_Box</value>
   </data>
   <data name="&gt;&gt;MaxStringValue_Label.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>8</value>
   </data>
   <data name="StringPropertiers_Box.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
   </data>
   <data name="StringPropertiers_Box.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 116</value>
+    <value>240, 169</value>
   </data>
   <data name="StringPropertiers_Box.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>

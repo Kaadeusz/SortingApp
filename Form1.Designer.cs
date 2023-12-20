@@ -47,6 +47,10 @@
       this.InsertionSort_CkBox = new System.Windows.Forms.CheckBox();
       this.BubbleSort_CkBox = new System.Windows.Forms.CheckBox();
       this.StringPropertiers_Box = new System.Windows.Forms.GroupBox();
+      this.GenerateRandomly_RdButton = new System.Windows.Forms.RadioButton();
+      this.GenerateDecreasing_RdButton = new System.Windows.Forms.RadioButton();
+      this.GenerateIncreasing_RdButton = new System.Windows.Forms.RadioButton();
+      this.GenerateIn_Label = new System.Windows.Forms.Label();
       this.GenerateString_Button = new System.Windows.Forms.Button();
       this.MaxLength_Label = new System.Windows.Forms.Label();
       this.MaxValue_Label = new System.Windows.Forms.Label();
@@ -184,6 +188,10 @@
       // 
       // StringPropertiers_Box
       // 
+      this.StringPropertiers_Box.Controls.Add(this.GenerateRandomly_RdButton);
+      this.StringPropertiers_Box.Controls.Add(this.GenerateDecreasing_RdButton);
+      this.StringPropertiers_Box.Controls.Add(this.GenerateIncreasing_RdButton);
+      this.StringPropertiers_Box.Controls.Add(this.GenerateIn_Label);
       this.StringPropertiers_Box.Controls.Add(this.GenerateString_Button);
       this.StringPropertiers_Box.Controls.Add(this.MaxLength_Label);
       this.StringPropertiers_Box.Controls.Add(this.MaxValue_Label);
@@ -192,6 +200,34 @@
       resources.ApplyResources(this.StringPropertiers_Box, "StringPropertiers_Box");
       this.StringPropertiers_Box.Name = "StringPropertiers_Box";
       this.StringPropertiers_Box.TabStop = false;
+      // 
+      // GenerateRandomly_RdButton
+      // 
+      resources.ApplyResources(this.GenerateRandomly_RdButton, "GenerateRandomly_RdButton");
+      this.GenerateRandomly_RdButton.Checked = true;
+      this.GenerateRandomly_RdButton.Name = "GenerateRandomly_RdButton";
+      this.GenerateRandomly_RdButton.TabStop = true;
+      this.GenerateRandomly_RdButton.UseVisualStyleBackColor = true;
+      this.GenerateRandomly_RdButton.CheckedChanged += new System.EventHandler(this.GenerateRandomly_RdButton_CheckedChanged);
+      // 
+      // GenerateDecreasing_RdButton
+      // 
+      resources.ApplyResources(this.GenerateDecreasing_RdButton, "GenerateDecreasing_RdButton");
+      this.GenerateDecreasing_RdButton.Name = "GenerateDecreasing_RdButton";
+      this.GenerateDecreasing_RdButton.UseVisualStyleBackColor = true;
+      this.GenerateDecreasing_RdButton.CheckedChanged += new System.EventHandler(this.GenerateDecreasing_RdButton_CheckedChanged);
+      // 
+      // GenerateIncreasing_RdButton
+      // 
+      resources.ApplyResources(this.GenerateIncreasing_RdButton, "GenerateIncreasing_RdButton");
+      this.GenerateIncreasing_RdButton.Name = "GenerateIncreasing_RdButton";
+      this.GenerateIncreasing_RdButton.UseVisualStyleBackColor = true;
+      this.GenerateIncreasing_RdButton.CheckedChanged += new System.EventHandler(this.GenerateIncreasing_RdButton_CheckedChanged);
+      // 
+      // GenerateIn_Label
+      // 
+      resources.ApplyResources(this.GenerateIn_Label, "GenerateIn_Label");
+      this.GenerateIn_Label.Name = "GenerateIn_Label";
       // 
       // GenerateString_Button
       // 
@@ -314,5 +350,9 @@
     private System.Windows.Forms.TextBox String_TxtBox;
     private System.Windows.Forms.GroupBox Status_Box;
     private System.Windows.Forms.Label Status_Label;
+    private System.Windows.Forms.RadioButton GenerateRandomly_RdButton;
+    private System.Windows.Forms.RadioButton GenerateDecreasing_RdButton;
+    private System.Windows.Forms.RadioButton GenerateIncreasing_RdButton;
+    private System.Windows.Forms.Label GenerateIn_Label;
   }
 }

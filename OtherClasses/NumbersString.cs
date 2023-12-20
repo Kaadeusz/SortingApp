@@ -10,12 +10,58 @@ namespace SortingApp
 
     private Random randomNumber = new Random();
     public List<int> stringOfRandoms = new List<int>();
-
-    public void GenerateRandoms(int stringLength, int maxValue)
+    
+    public enum Order
     {
-      for (int i = 0; i < stringLength; i++)
+      random,
+      increasing,
+      decreasing
+    }
+    public Order sortOrder
       {
+        get; set;
+      }
+
+    public void GenerateRandoms(int stringLength, int maxValue, Order order)
+    {
+      if(order == Order.random)
+      {
+        for (int i = 0; i < stringLength; i++)
+        {
+          stringOfRandoms.Add(randomNumber.Next(maxValue + 1));
+        }
+      }
+      else if (order == Order.increasing)
+      {
+        int i = 0;
         stringOfRandoms.Add(randomNumber.Next(maxValue + 1));
+
+        while (i < stringLength-1)
+        {
+          int number = randomNumber.Next(maxValue + 1);
+
+          if (number >= stringOfRandoms[i])
+          {
+            stringOfRandoms.Add(number);
+            i++;
+          }
+        }
+      }
+      else if (order == Order.decreasing)
+      {
+        int i = 0;
+        stringOfRandoms.Add(randomNumber.Next(maxValue + 1));
+
+        while (i < stringLength - 1)
+        {
+          int number = randomNumber.Next(maxValue + 1);
+
+          if (number <= stringOfRandoms[i])
+          {
+            stringOfRandoms.Add(number);
+            i++;
+          }
+        }
       }
     }
 
@@ -34,6 +80,8 @@ namespace SortingApp
 
     public List<int> CopyList(List<int> newOne)
     {
+      newOne.Clear();
+
       foreach (int number in stringOfRandoms)
       {
         newOne.Add(number);

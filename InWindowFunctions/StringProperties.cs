@@ -7,8 +7,8 @@ namespace SortingApp
   {
     NumbersString s = new NumbersString();
 
-    int maxLength = 100;
-    int maxValue = 100;
+    private int maxLength = 100;
+    private int maxValue = 100;
 
     private void MaxStringLength_Label_ValueChanged(object sender, EventArgs e)
     {
@@ -17,6 +17,28 @@ namespace SortingApp
     private void MaxStringValue_Label_ValueChanged(object sender, EventArgs e)
     {
       maxValue = (int)MaxStringValue_Label.Value;
+    }
+
+    private void GenerateIncreasing_RdButton_CheckedChanged(object sender, System.EventArgs e)
+    {
+      if (GenerateIncreasing_RdButton.Checked)
+      {
+        s.sortOrder = NumbersString.Order.increasing;
+      }
+    }
+    private void GenerateDecreasing_RdButton_CheckedChanged(object sender, System.EventArgs e)
+    {
+      if (GenerateDecreasing_RdButton.Checked)
+      {
+        s.sortOrder = NumbersString.Order.decreasing;
+      }
+    }
+    private void GenerateRandomly_RdButton_CheckedChanged(object sender, System.EventArgs e)
+    {
+      if (GenerateRandomly_RdButton.Checked)
+      {
+        s.sortOrder = NumbersString.Order.random;
+      }
     }
 
     private void GenerateString_Button_Click(object sender, EventArgs e)
@@ -34,7 +56,7 @@ namespace SortingApp
         return;
       }
 
-      s.GenerateRandoms(maxLength, maxValue);
+      s.GenerateRandoms(maxLength, maxValue, s.sortOrder);
       s.ConvertToTextBox(String_TxtBox, s.stringOfRandoms);
 
       Status_Label.Text = "String generated; not sorted";
