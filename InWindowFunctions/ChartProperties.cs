@@ -22,7 +22,7 @@ namespace SortingApp
       chart.Series.Add(chartValue);
     }
 
-    private void InitializeAlgorythm<T>(ISorting<T> sorting, bool ascendance,  string name, List<int> list)
+    private void InitializeAlgorythm<T>(ISorting<T> sorting, bool ascendance, string name, List<int> list)
     {
       Stopwatch algorythmDuration = new Stopwatch();
 
